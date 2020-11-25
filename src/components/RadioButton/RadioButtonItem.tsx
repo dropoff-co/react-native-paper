@@ -145,10 +145,10 @@ const RadioButtonItem = ({
             testID={testID}
           >
             <View style={[styles.container, style]} pointerEvents="none">
+              {radioButton}
               <Text style={[styles.label, { color: colors.text }, labelStyle]}>
                 {label}
               </Text>
-              {radioButton}
             </View>
           </TouchableRipple>
         );
